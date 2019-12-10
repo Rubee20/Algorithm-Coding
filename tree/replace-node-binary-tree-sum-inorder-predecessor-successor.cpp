@@ -76,7 +76,7 @@ int main()
 	fun1(root);
 	//cout << "2 " << endl;
 
-	cout << endl <<"after sum inorder predecessor successor" << endl;
+	cout << endl <<"after replacing node data sum inorder predecessor successor" << endl;
 	inorder(root);
 
 	return 0;
