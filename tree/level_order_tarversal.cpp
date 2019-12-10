@@ -49,6 +49,7 @@ int main()
 	root->left->right = getnode(4);
 	root->left->left = getnode(5);
 
+	cout << "Level order traversal" << endl;
 	level_order_traversal(root);
 	return 0;
 }
