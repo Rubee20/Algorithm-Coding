@@ -41,4 +41,7 @@ int main()
 	int size = vec1.size();
 
 	kadanes_algo(vec1, size);
+	cout << "Rubee Tandan" << endl;
+
+	return 0;
 }
