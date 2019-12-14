@@ -33,9 +33,9 @@ int main()
 	int array[] = {4, 2, -3, -1, 0, 4};
 	int size = sizeof(array)/sizeof(array[0]);
 
-	zerosubsumproblem(array, size);
-	//zerosubsumproblem(array, size) ? cout << "True" :
-	//								 cout << "False";
+	//zerosubsumproblem(array, size);
+        zerosubsumproblem(array, size) ? cout << "True" :
+								 cout << "False";
 
 	return 0;
 }
