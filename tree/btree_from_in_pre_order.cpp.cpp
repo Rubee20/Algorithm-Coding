@@ -90,7 +90,7 @@ int main()
 	TreeNode* root = buildTree(A, B);
 
     cout << "****** Pre order ******" << endl;
-	print_inorder(root);
+    print_inorder(root);
 
     cout <<endl << "****** Post order ******" << endl;
     print_postorder(root);
