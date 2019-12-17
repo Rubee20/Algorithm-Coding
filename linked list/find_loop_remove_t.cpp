@@ -57,7 +57,8 @@ int main()
 	head->next->next->next->next = head->next;
 
 	bool x = loop(head);
-	cout << endl << "Found loop = " << x << endl;;
+	cout << endl << "Found loop = " << x << endl;
+
 	print (head);
 	return 0;
 }
