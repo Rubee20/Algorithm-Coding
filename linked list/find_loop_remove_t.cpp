@@ -25,13 +25,11 @@ bool loop(Node* head)
 	{
 		if(curr->flag == 1)
 		{
-			//cout << curr->data << " ";
 			prev->next = NULL;
 			return 1;
 		}
 		else
 		{
-			cout << curr->data << " ";
 			curr->flag = 1;
 			prev = curr;
 			curr = curr->next;
